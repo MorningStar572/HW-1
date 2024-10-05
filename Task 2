@@ -1,0 +1,63 @@
+For the scenario below identify the entities, their attributes and appropriate keys 
+
+ 
+
+Finsbury Happy Zoo 
+
+ 
+
+Finsbury Happy Zoo’s concept is to show animals together in their habitats. They have a number of enclosures of different habitat types (such as forest or tundra), different sizes (square metres), each having a main feature (such as a stream or a cave). Animals of different species share the same enclosure. Each enclosure has a unique number and there can be several enclosures with the same habitat but with a different main feature or of a different size. Each animal has a unique ID, and their name, date_of_birth, diet and description are stored. When an animal is put in an enclosure, the start date is recorded, and if they are transferred to another enclosure the end date is recorded. Zoo keepers may need to make a note about a particular animal, for example “not eating well today” and this is recorded along with the date. To make sure the animals don’t eat each other a species compatibility table is maintained which has the following information; speciesA, speciesB, compatibility_rating (5 for happy neighbours to 1 for bitter enemies). Species are identified by their name, and a description of the species and their habitat type are recorded. Species are matched against enclosures by Zoo staff, and if suitable the maximum number of animals of a particular species for a particular enclosure is recorded to prevent overcrowding. 
+
+ 
+
+Habitats 
+
+Habitat type 
+
+Habitat size  
+
+Enclosure number/ Unique Number  
+
+Enclosure  
+
+Unique Number/Enclosure number  
+
+Main feature  
+
+Animal ID/ Unique ID  
+
+Start date  
+
+End date  
+
+Animal 
+
+Unique ID/ Animal ID 
+
+Name 
+
+Species name  
+
+Date of birth 
+
+Diet  
+
+Description  
+
+Zookeeper notes 
+
+Zookeeper notes date  
+
+Species 
+
+Name 
+
+Description  
+
+MNAAPSPE (maximum number of animals of a particular species for a particular enclosure) 
+
+Compatibility table  
+
+Species Name  
+
+Compatibility rating  
