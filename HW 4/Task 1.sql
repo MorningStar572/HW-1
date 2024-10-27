@@ -12,9 +12,11 @@ petname varchar(20) NOT NULL PRIMARY KEY,
  );
 
 create table petEvent (
+eventID INTEGER NOT NULL auto_increment primary KEY,
 petname varchar(15),
 eventdate date,
-enenttype varchar(15),
+eventtype varchar(15),
 remark varchar(255),
 foreign key (petname) references petpet (petname)
 )
+
